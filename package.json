@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/marsgpl/npm-icase#readme",
   "files": [
-    "icase.js"
+    "icase.js",
+    "README.md"
   ]
 }
