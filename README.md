@@ -11,12 +11,11 @@ use:
 
     const icase = require("icase")
 
-    // specify integer cases for numbers that ends on 0, 1 etc
     const cases = ["томатов", "томат", "томата"]
 
-    Array.apply(null, {15}).map(Number.call, Number).forEach(amount => {
+    for ( let amount=-5; amount<=22; ++amount ) {
         console.log(amount + " " + cases[icase(amount)])
-    })
+    }
 ```
 
 should output something like this:
