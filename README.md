@@ -2,7 +2,9 @@
 
 install:
 
-    yarn add icase
+```bash
+yarn add icase
+```
 
 use:
 
@@ -16,7 +18,7 @@ for ( let amount=-5; amount<=14; ++amount ) {
 }
 ```
 
-should output something like this:
+output:
 
     -5 томатов
     -4 томата
