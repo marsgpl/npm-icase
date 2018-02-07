@@ -18,6 +18,11 @@ for ( let amount=-5; amount<=14; ++amount ) {
 
 should output something like this:
 
+    -5 томатов
+    -4 томата
+    -3 томата
+    -2 томата
+    -1 томат
     0 томатов
     1 томат
     2 томата
