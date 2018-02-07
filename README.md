@@ -7,15 +7,15 @@ install:
 use:
 
 ```javascript
-    "use strict"
+"use strict"
 
-    const icase = require("icase")
+const icase = require("icase")
 
-    const cases = ["томатов", "томат", "томата"]
+const cases = ["томатов", "томат", "томата"]
 
-    for ( let amount=-5; amount<=22; ++amount ) {
-        console.log(amount + " " + cases[icase(amount)])
-    }
+for ( let amount=-5; amount<=22; ++amount ) {
+    console.log(amount + " " + cases[icase(amount)])
+}
 ```
 
 should output something like this:
