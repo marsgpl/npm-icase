@@ -7,8 +7,6 @@ install:
 use:
 
 ```javascript
-"use strict"
-
 const icase = require("icase")
 
 const cases = ["томатов", "томат", "томата"]
