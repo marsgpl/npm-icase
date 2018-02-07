@@ -1,0 +1,26 @@
+{
+  "name": "icase",
+  "version": "1.0.3",
+  "description": "integer case detection",
+  "main": "icase.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marsgpl/npm-icase.git"
+  },
+  "keywords": [
+    "icase",
+    "integer"
+  ],
+  "author": "marsgpl <marsgpl@gmail.com> (https://eki.one)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marsgpl/npm-icase/issues"
+  },
+  "homepage": "https://github.com/marsgpl/npm-icase#readme",
+  "files": [
+    "icase.js"
+  ]
+}
