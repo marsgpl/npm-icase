@@ -1,6 +1,6 @@
 {
   "name": "icase",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "integer case detection",
   "main": "icase.js",
   "scripts": {
