@@ -1,4 +1,4 @@
-# npm module for integer case detection
+# integer case detection
 
 install:
 
