@@ -2,12 +2,12 @@
 
 "use strict"
 
-let icase = number => {
+module.exports = function(number) {
     number = parseInt(number, 10)
     number = Math.abs(number)
 
-    let mod10 = number % 10
-    let mod100 = number % 100
+    var mod10 = number % 10
+    var mod100 = number % 100
 
     if ( mod10===0 || (mod10>4&&mod10<10) || (mod100>4&&mod100<20) ) {
         return 0 // томатов
@@ -17,5 +17,3 @@ let icase = number => {
         return 2 // томата
     }
 }
-
-module.exports = icase
